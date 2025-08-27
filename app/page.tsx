@@ -199,7 +199,7 @@ const testimonials = [
                       </CardDescription>
                     </CardHeader>
                     <CardContent className="text-center">
-                      <Button className="w-full bg-primary hover:bg-primary/90 font-bold">ADD TO CART</Button>
+                      <Button className="w-full bg-primary hover:bg-primary/90 font-bold">READ MORE</Button>
                     </CardContent>
                   </Card>
                 </Link>
@@ -225,16 +225,22 @@ const testimonials = [
           </h2>
 
 
-    {/* MADE IN INDIA */}
-    <div className="text-center group mb-16">  {/* <-- added spacing here */}
-      <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6 group-hover:animate-glow transition-all duration-300">
-        <Zap className="w-10 h-10 text-accent-foreground" />
-      </div>
-      <h3 className="text-2xl font-bold mb-4 font-[family-name:var(--font-space-grotesk)]">MADE IN INDIA</h3>
-      <p className="text-muted-foreground font-[family-name:var(--font-dm-sans)]">
-        We are proud to be an Indian brand, supporting local manufacturing and communities.
-      </p>
-    </div>
+<div className="text-center group mb-16">
+  <div className="w-20 h-20 mx-auto mb-6 group-hover:animate-glow transition-all duration-300">
+    <img
+      src="/India.svg"
+      alt="Made in India logo"
+      className="w-20 h-20 rounded-full object-contain"
+    />
+  </div>
+  <h3 className="text-2xl font-bold mb-4 font-[family-name:var(--font-space-grotesk)]">
+    MADE IN INDIA
+  </h3>
+  <p className="text-muted-foreground font-[family-name:var(--font-dm-sans)]">
+    We are proud to be an Indian brand, supporting local manufacturing and communities.
+  </p>
+</div>
+
 
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center group">
@@ -340,12 +346,32 @@ const testimonials = [
           <p className="text-xl mb-8 text-muted-foreground font-[family-name:var(--font-dm-sans)]">
             Join thousands of athletes who trust our supplements for their fitness journey.
           </p>
-          <Button
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-xl animate-glow font-bold"
-          >
-            BUY NOW
-          </Button>
+<div className="flex gap-4 justify-center">
+  {/* WhatsApp Button */}
+  <Button
+    size="lg"
+    asChild
+    className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-xl animate-glow font-bold"
+  >
+    <a
+      href="https://wa.me/918380889935"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WhatsApp
+    </a>
+  </Button>
+
+  {/* Call Button */}
+  <Button
+    size="lg"
+    asChild
+    className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-xl animate-glow font-bold"
+  >
+    <a href="tel:+918380889935">Call Now</a>
+  </Button>
+</div>
+
         </div>
       </section>
 
@@ -374,7 +400,7 @@ const testimonials = [
           <Instagram className="w-6 h-6" />
         </a>
         <a
-          href="https://wa.me/919876543210" // <-- replace with your WhatsApp number
+          href="https://wa.me/918380889935"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground hover:text-accent transition-colors"
