@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": "max-out-watermelon",
+      "title": "MAX OUT Watermelon",
+      "flavour": "Watermelon",
+      "description": "Premium pre Workout - Watermelon flavor",
+      "image": "/products/MaxOut-Watermelon.jpg",
+      "nutritionLabel": "/nutrition-labels/MaxOut-Watermelon.jpg",
+      "category": "preworkout",
+      "detailedDescription": "Explosive energy and focus for pre-workout.",
+      "ingredients": [
+        "L-citrulline",
+        "Beta Alanine",
+        "L-arginine",
+        "Caffeine",
+        "Flavour",
+        "Taurine",
+        "Natural Caffeine"
+      ],
+      "benefits": [
+        "Explosive energy boost",
+        "Enhanced mental focus",
+        "Increased endurance",
+        "Better muscle pumps",
+        "Improved workout performance"
+      ],
+      "usage": "Mix 1 scoop with 200-250ml water 15-30 minutes before training.",
+      "servings": "42",
+      "weight": "250g"
+    },
+    {
+      "id": "max-out-pineapple",
+      "title": "MAX OUT Pineapple",
+      "flavour": "Pineapple",
+      "description": "Premium pre Workout - Pineapple flavor",
+      "image": "/products/MaxOut-Pineapple.jpg",
+      "nutritionLabel": "/nutrition-labels/MaxOut-Pineapple.jpg",
+      "category": "preworkout",
+      "detailedDescription": "Delicious pre-workout for stamina and endurance.",
+      "ingredients": [
+        "L-citrulline",
+        "Beta Alanine",
+        "L-arginine",
+        "Caffeine",
+        "Flavour",
+        "Taurine",
+        "Natural Caffeine"
+      ],
+      "benefits": [
+        "Explosive energy boost",
+        "Enhanced mental focus",
+        "Increased endurance",
+        "Better muscle pumps",
+        "Improved workout performance"
+      ],
+      "usage": "Mix 1 scoop with 200-250ml water 15-30 minutes before training.",
+      "servings": "42",
+      "weight": "250g"
+    },
+    {
+      "id": "bulk-titan-mass-gainer",
+      "title": "Bulk Titan Mass Gainer",
+      "flavour": "Belgian Chocolate",
+      "description": "High-calorie formula to increase muscle mass and strength.",
+      "image": "/products/BulkTitan-MassGainer.jpg",
+      "nutritionLabel": "/nutrition-labels/Bulk-Titan-Mass-Gainer.jpg",
+      "category": "gainer",
+      "detailedDescription": "Supports rapid muscle growth and recovery.",
+      "ingredients": [
+        "Whey Protein Concentrate",
+        "Maltodextrin",
+        "Dextrose",
+        "Creatine Monohydrate",
+        "Natural Flavors",
+        "Vitamins & Minerals"
+      ],
+      "benefits": [
+        "High-calorie formula for weight gain",
+        "Rapid muscle growth support",
+        "Enhanced recovery",
+        "Increased strength and power"
+      ],
+      "usage": "Take 2 scoops (100g) in the morning and 2 scoops in the afternoon with milk or beverage.",
+      "servings": "30",
+      "weight": "3kg"
+    }
+  ]
+}
