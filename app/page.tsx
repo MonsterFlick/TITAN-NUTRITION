@@ -392,7 +392,7 @@ const testimonials = [
       {/* Socials */}
       <div className="flex space-x-6">
         <a
-          href="https://www.instagram.com/titan_nutrition" // <-- your Instagram URL
+          href="https://www.instagram.com/titan_nutrition_07"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground hover:text-accent transition-colors"
