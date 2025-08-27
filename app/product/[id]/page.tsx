@@ -169,7 +169,9 @@ export default function ProductPage() {
             </div>
 
             {/* Buy Buttons (Desktop) */}
-            <div className="hidden lg:flex gap-4 mt-6">
+
+            <div className="flex gap-4 mt-6">
+
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white">
                   <MessageCircle className="w-5 h-5" /> Buy via WhatsApp
@@ -217,26 +219,28 @@ export default function ProductPage() {
       </footer>
 
       {/* Sticky Buy Bar for Mobile */}
-      {product.price && (
-        <div className="lg:hidden fixed bottom-0 left-0 w-full bg-card border-t shadow-md z-50 p-4 flex justify-between items-center">
-          <div className="flex flex-col">
-            <span className="text-muted-foreground text-xs">Price</span>
-            <span className="font-bold text-lg">{product.price}</span>
-          </div>
-          <div className="flex gap-2">
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-              <Button className="flex items-center gap-1 bg-green-500 hover:bg-green-600 text-white">
-                <MessageCircle className="w-4 h-4" /> WhatsApp
-              </Button>
-            </a>
-            <a href={callLink}>
-              <Button className="flex items-center gap-1 bg-primary hover:bg-primary/90 text-white">
-                <Phone className="w-4 h-4" /> Call
-              </Button>
-            </a>
-          </div>
-        </div>
-      )}
+<div className="lg:hidden fixed bottom-0 left-0 w-full bg-card border-t shadow-md z-50 p-3 flex justify-between items-center">
+  {/* Left - Product name + price (if available) */}
+  <div className="flex flex-col">
+    <span className="text-xs text-muted-foreground">Want to buy?</span>
+    <span className="font-semibold text-sm truncate max-w-[150px]">{product.title}</span>
+  </div>
+
+  {/* Right - Action buttons */}
+  <div className="flex gap-2">
+    <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+      <Button size="sm" className="flex items-center gap-1 bg-green-500 hover:bg-green-600 text-white px-3">
+        <MessageCircle className="w-4 h-4" /> Chat
+      </Button>
+    </a>
+    <a href={callLink}>
+      <Button size="sm" className="flex items-center gap-1 bg-primary hover:bg-primary/90 text-white px-3">
+        <Phone className="w-4 h-4" /> Call
+      </Button>
+    </a>
+  </div>
+</div>
+
 
       {/* Nutrition Modal */}
       {product && (
