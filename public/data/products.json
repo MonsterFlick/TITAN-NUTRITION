@@ -9,15 +9,6 @@
       "nutritionLabel": "/nutrition-labels/MaxOut-Watermelon.jpg",
       "category": "preworkout",
       "detailedDescription": "Explosive energy and focus for pre-workout.",
-      "ingredients": [
-        "L-citrulline",
-        "Beta Alanine",
-        "L-arginine",
-        "Caffeine",
-        "Flavour",
-        "Taurine",
-        "Natural Caffeine"
-      ],
       "benefits": [
         "Explosive energy boost",
         "Enhanced mental focus",
@@ -33,20 +24,11 @@
       "id": "max-out-pineapple",
       "title": "MAX OUT Pineapple",
       "flavour": "Pineapple",
-      "description": "Premium pre Workout - Pineapple flavor",
+      "description": "Premium Pre Workout - Pineapple flavor",
       "image": "/products/MaxOut-Pineapple.jpg",
       "nutritionLabel": "/nutrition-labels/MaxOut-Pineapple.jpg",
       "category": "preworkout",
       "detailedDescription": "Delicious pre-workout for stamina and endurance.",
-      "ingredients": [
-        "L-citrulline",
-        "Beta Alanine",
-        "L-arginine",
-        "Caffeine",
-        "Flavour",
-        "Taurine",
-        "Natural Caffeine"
-      ],
       "benefits": [
         "Explosive energy boost",
         "Enhanced mental focus",
@@ -67,14 +49,6 @@
       "nutritionLabel": "/nutrition-labels/Bulk-Titan-Mass-Gainer.jpg",
       "category": "gainer",
       "detailedDescription": "Supports rapid muscle growth and recovery.",
-      "ingredients": [
-        "Whey Protein Concentrate",
-        "Maltodextrin",
-        "Dextrose",
-        "Creatine Monohydrate",
-        "Natural Flavors",
-        "Vitamins & Minerals"
-      ],
       "benefits": [
         "High-calorie formula for weight gain",
         "Rapid muscle growth support",
@@ -84,6 +58,27 @@
       "usage": "Take 2 scoops (100g) in the morning and 2 scoops in the afternoon with milk or beverage.",
       "servings": "30",
       "weight": "3kg"
+    },
+    {
+      "id": "pure-x-whey",
+      "title": "Pure X Whey",
+      "flavour": "Belgium Chocolate",
+      "description": "Pure X Whey protein with added digestive enzymes.",
+      "image": "/products/pureXwhey.jpg",
+      "nutritionLabel": "/nutrition-labels/pureXwhey.jpg",
+      "category": "protein",
+      "detailedDescription": "Fast-absorbing protein for post-workout recovery.",
+      "benefits": [
+        "24g protein per serving",
+        "12g EAA",
+        "5.5g BCAA",
+        "4g Glutamine",
+        "Supports muscle recovery and growth",
+        "Fast absorption"
+      ],
+      "usage": "Mix 1 scoop (32g approx.) with 200ml milk or your favorite beverage,post-workout or between meals.",
+      "servings": "62.5",
+      "weight": "2kg"
     }
   ]
 }

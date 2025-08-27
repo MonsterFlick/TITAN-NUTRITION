@@ -19,7 +19,6 @@ interface Product {
   price?: string
   category: string
   detailedDescription?: string
-  ingredients?: string[]
   benefits?: string[]
   usage?: string
   servings?: string
